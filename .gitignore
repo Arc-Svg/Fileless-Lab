@@ -1,0 +1,24 @@
+# Local render and QA outputs
+render-check-*/
+*_preview.pdf
+*_extracted.txt
+ma_doc_extracted_review.txt
+Huong_dan_headings_check.txt
+
+# Local/generated backups and temporary files
+*.bak
+*.tmp
+~$*
+*.log
+*.before_*.docx
+__pycache__/
+*/__pycache__/
+
+# Large installers and unrelated binaries
+*.exe
+
+# Old generated lure artifacts that are no longer part of the current lab flow
+lab-files/attacker-web/zip-staging/
+lab-files/attacker-web/collections/
+lab-files/attacker-web/XacNhanLuong_Q3.cmd
+lab-files/attacker-web/ThongBaoLuong_Q3.docx
